@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Web Development Portfolio for Tod McChesney</title>
+        <meta name="description" content="This is my portfolio project for the Udacity Front-End Web Developer Nanodegree.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto%7CRoboto+Slab:300,400" rel="stylesheet">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Sectioning elements are full width an all screen sizes -->
+        <header>
+            <!-- Flex container limits content width to 940px -->
+            <div class="flex-container">
+                <div class="header-logo-col">
+                    <img class="logo"
+                        src="img/code-scribe-logo.svg"
+                        alt="Code Scribe logo">
+                </div>
+                <div class="header-text-col heading">
+                    <h1 class="name">Tod McChesney</h1>
+                    <h3 class="tagline">Front-End Web Developer</h3>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="flex-container">
+                <!-- Main banner -->
+                <picture>
+                    <source srcset="img/html-code-2x.png 2x, img/html-code-1x.png 1x"
+                        media="(min-width: 640px)">
+                    <img class="img"
+                        src="img/html-code-1x.png"
+                        alt="html markup shown in the Atom code editor"
+                        srcset="img/html-code-crop-2x.png 2x, img/html-code-crop-1x.png 1x">
+                </picture>
+                <h2 class="featured-heading heading">Featured Work</h2>
+                <div class="project-col">
+                    <img class="img project-img"
+                        src="img/article-mockup-img-1x.png"
+                        alt="Udacity FEND blog article mockup project"
+                        srcset="img/article-mockup-img-2x.png 2x">
+                    <p class="project-name">Blog Article Mockup</p>
+                </div>
+                <div class="project-col">
+                    <img class="img project-img"
+                        src="img/animal-trading-cards-img-1x.jpg"
+                        alt="Udacity FEND animal trading cards project"
+                        srcset="img/animal-trading-cards-img-2x.jpg 2x">
+                    <p class="project-name">Animal Trading Cards</p>
+                </div>
+                <div class="project-col">
+                    <img class="img project-img"
+                        src="img/portfolio-img-1x.png"
+                        alt="Udacity FEND portfolio project"
+                        srcset="img/portfolio-img-2x.png 2x">
+                    <p class="project-name">Projects Portfolio</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="flex-container">
+                <p class="footer-text">Tod McChesney<br>
+                © 2017 All Rights Reserved</p>
+            </div>
+        </footer>
+    </body>
+</html>

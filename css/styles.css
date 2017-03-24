@@ -1,0 +1,155 @@
+/* ==========================================================================
+   Globals
+   ========================================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1c1c1c;
+    color: #cdd3de;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Parent flex container for content */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+/* Sets font and color for all headings */
+.heading {
+    color: #607d8b;
+    font-family: "Roboto Slab", serif;
+}
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+header {
+    border-bottom: 3px solid #607d8b;
+}
+
+/* Column for logo */
+.header-logo-col {
+    width: 21%;
+}
+
+.logo {
+    width: 56px;
+    height: 56px;
+    margin: 10px 0 7px;
+}
+
+/* Column for header text */
+.header-text-col {
+    width: 77%;
+    text-align: right;
+}
+
+.name {
+    margin: 10px 0 6px;
+    font-size: 1.8em;
+    font-weight: 300;
+}
+
+.tagline {
+    margin: 0;
+    font-size: 0.9em;
+}
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+main {
+    padding-top: 20px;
+    background-color: #2e2e2e;
+}
+
+/* Makes images responsive and adds border */
+.img {
+    width: 100%;
+    border: 2px solid #1c1c1c;
+}
+
+.featured-heading {
+    width: 100%;
+    margin: 30px 0 20px;
+    font-size: 1.2em;
+}
+
+/* Column for each project */
+.project-col {
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project-img {
+    max-width: 380px;
+}
+
+.project-name {
+    margin-top: 10px;
+}
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+footer {
+    border-top: 3px solid #607d8b;
+}
+
+.footer-text {
+    width: 100%;
+    margin: 20px 0 30px;
+    color: #607d8b;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ==========================================================================
+   Media queries
+   ========================================================================== */
+
+/* Resize logo and heading text for large screens */
+@media screen and (min-width: 500px) {
+    .container {
+        padding: 0 20px;
+        }
+
+    .logo {
+        width: 80px;
+        height: 80px;
+        margin: 20px 0 17px;
+    }
+
+    .name {
+        margin: 20px 0 6px;
+        font-size: 2.6em;
+    }
+
+    .tagline {
+        font-size: 1.3em;
+    }
+
+    .featured-heading {
+        font-size: 1.5em;
+    }
+}
+
+/* Break point for 3 column layout */
+@media screen and (min-width: 640px) {
+    .project-col {
+        width: 32%;
+    }
+}
