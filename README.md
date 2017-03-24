@@ -4,6 +4,8 @@ This is my Portfolio Project for the Udacity Front-End Web Developer
 Nanodegree. It is a one page site that is fully responsive on all
 devices.
 
+![screenshot](/portfolio-project-screenshot.png)
+
 ## Getting Started
 
 You will need to clone this repository or download the ZIP file to your
